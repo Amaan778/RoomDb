@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddingData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adding Data"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="9dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your middle name"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your last name"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:text="Save"/>
+
+</LinearLayout>
